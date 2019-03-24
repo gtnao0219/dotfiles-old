@@ -1,0 +1,41 @@
+[core]
+    excludesfile = /Users/n.nakane/.gitignore_global
+
+[user]
+    name = naotaka nakane
+    email = n.nakane0219@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+
+[color]
+    ui = auto
+
+[color "diff"]
+    meta = 242 238
+    frag = 239 236
+    old = 167 normal
+    new = 030 normal
+    context = 240
+    commit = 246 024
+
+[diff]
+    compactionHeuristic = true
+
+[pager]
+    log = diff-highlight | less
+    show = diff-highlight | less
+    diff = diff-highlight | less
+
+[ghq]
+    root = ~/dev/src
+
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+
