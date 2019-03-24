@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ln -sfn $PWD/.vimrc ~/.vimrc
+ln -sfn $PWD/.zshenv ~/.zshenv
 ln -sfn $PWD/.zshrc ~/.zshrc
 ln -sfn $PWD/.zsh ~/.zsh
 ln -sfn $PWD/.tmux.conf ~/.tmux.conf
