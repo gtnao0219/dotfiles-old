@@ -1,3 +1,6 @@
+# fpath
+fpath=(~/.zsh/completions $fpath)
+
 # autoload
 autoload -Uz run-help
 autoload -Uz add-zsh-hook
